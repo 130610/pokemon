@@ -9,7 +9,8 @@ def plotSpectrum(y,Fs):
  """
  n = len(y) # length of the signal
  k = arange(n)
- T = n/Fs
+ T = float(n)/Fs
+ print T
  frq = k/T # two sides frequency range
  frq = frq[range(n/2)] # one side frequency range
 
@@ -20,7 +21,7 @@ def plotSpectrum(y,Fs):
  xlabel('Freq (Hz)')
  ylabel('|Y(freq)|')
 
-y = wavfile.read("test.wav")
+y = wavfile.read("WAV-651/143.wav")
 sr = y[0]
 ts = 1.0/sr
 l = ts*len(y[1])
