@@ -1,0 +1,194 @@
+Group  1
+# WAV-651/001.wav :  398 hz
+# WAV-651/024.wav :  387 hz
+# WAV-651/064.wav :  406 hz
+# WAV-651/065.wav :  392 hz
+# WAV-651/069.wav :  393 hz
+# WAV-651/096.wav :  382 hz
+# WAV-651/131.wav :  408 hz
+# WAV-651/147.wav :  403 hz
+Group  2
+# WAV-651/002.wav :  326 hz
+# WAV-651/004.wav :  316 hz
+# WAV-651/059.wav :  341 hz
+# WAV-651/075.wav :  341 hz
+# WAV-651/086.wav :  319 hz
+# WAV-651/090.wav :  340 hz
+Group  3
+# WAV-651/003.wav :  2128 hz
+# WAV-651/033.wav :  2199 hz
+Group  4
+# WAV-651/005.wav :  272 hz
+# WAV-651/055.wav :  275 hz
+# WAV-651/103.wav :  266 hz
+Group  5
+# WAV-651/006.wav :  257 hz
+# WAV-651/023.wav :  254 hz
+# WAV-651/087.wav :  257 hz
+# WAV-651/111.wav :  257 hz
+Group  6
+# WAV-651/007.wav :  861 hz
+# WAV-651/013.wav :  903 hz
+# WAV-651/046.wav :  832 hz
+# WAV-651/049.wav :  877 hz
+# WAV-651/067.wav :  826 hz
+# WAV-651/078.wav :  819 hz
+# WAV-651/119.wav :  834 hz
+Group  7
+# WAV-651/008.wav :  612 hz
+# WAV-651/025.wav :  610 hz
+# WAV-651/066.wav :  619 hz
+# WAV-651/068.wav :  609 hz
+# WAV-651/080.wav :  588 hz
+# WAV-651/094.wav :  599 hz
+# WAV-651/138.wav :  626 hz
+Group  8
+# WAV-651/009.wav :  453 hz
+# WAV-651/014.wav :  438 hz
+# WAV-651/022.wav :  456 hz
+# WAV-651/031.wav :  438 hz
+# WAV-651/037.wav :  438 hz
+# WAV-651/107.wav :  449 hz
+Group  9
+# WAV-651/010.wav :  2911 hz
+# WAV-651/018.wav :  2773 hz
+# WAV-651/118.wav :  2913 hz
+Group  10
+# WAV-651/011.wav :  3868 hz
+# WAV-651/016.wav :  3969 hz
+# WAV-651/125.wav :  3783 hz
+# WAV-651/139.wav :  3941 hz
+# WAV-651/145.wav :  3975 hz
+Group  11
+# WAV-651/012.wav :  2428 hz
+# WAV-651/017.wav :  2427 hz
+# WAV-651/026.wav :  2319 hz
+# WAV-651/113.wav :  2442 hz
+# WAV-651/140.wav :  2520 hz
+# WAV-651/146.wav :  2545 hz
+Group  12
+# WAV-651/015.wav :  576 hz
+# WAV-651/038.wav :  550 hz
+# WAV-651/128.wav :  573 hz
+Group  13
+# WAV-651/019.wav :  772 hz
+# WAV-651/083.wav :  798 hz
+# WAV-651/123.wav :  758 hz
+# WAV-651/136.wav :  762 hz
+# WAV-651/144.wav :  789 hz
+Group  14
+# WAV-651/020.wav :  970 hz
+# WAV-651/061.wav :  954 hz
+# WAV-651/070.wav :  935 hz
+# WAV-651/135.wav :  1015 hz
+Group  15
+# WAV-651/021.wav :  666 hz
+# WAV-651/030.wav :  667 hz
+# WAV-651/058.wav :  660 hz
+# WAV-651/077.wav :  682 hz
+# WAV-651/104.wav :  686 hz
+Group  16
+# WAV-651/027.wav :  1804 hz
+# WAV-651/052.wav :  1821 hz
+# WAV-651/137.wav :  1896 hz
+Group  17
+# WAV-651/028.wav :  191 hz
+# WAV-651/088.wav :  200 hz
+# WAV-651/105.wav :  192 hz
+Group  18
+# WAV-651/029.wav :  818 hz
+Group  19
+# WAV-651/032.wav :  1092 hz
+# WAV-651/047.wav :  1055 hz
+# WAV-651/048.wav :  1075 hz
+# WAV-651/057.wav :  1146 hz
+# WAV-651/074.wav :  1039 hz
+# WAV-651/102.wav :  1053 hz
+# WAV-651/133.wav :  1111 hz
+Group  20
+# WAV-651/034.wav :  3277 hz
+Group  21
+# WAV-651/035.wav :  2569 hz
+Group  22
+# WAV-651/036.wav :  3462 hz
+# WAV-651/053.wav :  3449 hz
+# WAV-651/085.wav :  3448 hz
+# WAV-651/116.wav :  3449 hz
+# WAV-651/150.wav :  3542 hz
+Group  23
+# WAV-651/039.wav :  4093 hz
+# WAV-651/041.wav :  4110 hz
+# WAV-651/060.wav :  4095 hz
+# WAV-651/092.wav :  4241 hz
+# WAV-651/132.wav :  4094 hz
+# WAV-651/142.wav :  4081 hz
+Group  24
+# WAV-651/040.wav :  1492 hz
+# WAV-651/050.wav :  1545 hz
+# WAV-651/051.wav :  1556 hz
+# WAV-651/071.wav :  1456 hz
+# WAV-651/134.wav :  1560 hz
+# WAV-651/141.wav :  1547 hz
+Group  25
+# WAV-651/042.wav :  1956 hz
+# WAV-651/056.wav :  1973 hz
+# WAV-651/084.wav :  1928 hz
+# WAV-651/149.wav :  1958 hz
+Group  26
+# WAV-651/043.wav :  238 hz
+# WAV-651/108.wav :  237 hz
+# WAV-651/143.wav :  229 hz
+Group  27
+# WAV-651/044.wav :  219 hz
+# WAV-651/110.wav :  214 hz
+Group  28
+# WAV-651/045.wav :  4383 hz
+# WAV-651/082.wav :  4519 hz
+Group  29
+# WAV-651/054.wav :  205 hz
+# WAV-651/076.wav :  205 hz
+# WAV-651/095.wav :  205 hz
+# WAV-651/109.wav :  205 hz
+Group  30
+# WAV-651/062.wav :  1022 hz
+# WAV-651/120.wav :  1029 hz
+Group  31
+# WAV-651/063.wav :  1418 hz
+# WAV-651/112.wav :  1350 hz
+# WAV-651/127.wav :  1394 hz
+Group  32
+# WAV-651/072.wav :  711 hz
+# WAV-651/079.wav :  718 hz
+Group  33
+# WAV-651/073.wav :  3096 hz
+Group  34
+# WAV-651/081.wav :  148 hz
+# WAV-651/093.wav :  144 hz
+# WAV-651/114.wav :  150 hz
+Group  35
+# WAV-651/089.wav :  482 hz
+# WAV-651/091.wav :  480 hz
+# WAV-651/115.wav :  484 hz
+Group  36
+# WAV-651/097.wav :  509 hz
+# WAV-651/099.wav :  511 hz
+# WAV-651/121.wav :  514 hz
+# WAV-651/126.wav :  513 hz
+Group  37
+# WAV-651/098.wav :  362 hz
+# WAV-651/122.wav :  350 hz
+# WAV-651/148.wav :  354 hz
+Group  38
+# WAV-651/100.wav :  292 hz
+# WAV-651/130.wav :  291 hz
+Group  39
+# WAV-651/101.wav :  544 hz
+# WAV-651/124.wav :  544 hz
+Group  40
+# WAV-651/106.wav :  177 hz
+Group  41
+# WAV-651/117.wav :  1327 hz
+Group  42
+# WAV-651/129.wav :  427 hz
+Group  43
+# WAV-651/151.wav :  1637 hz

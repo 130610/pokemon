@@ -62,9 +62,9 @@ def populatePokemonList():
 		y = wavfile.read(f)
 		pokemonList.append([f,condenseFreqs(findMaxFreqs(y[1], y[0], 100), 5)[:3],"unused"])
 
-def populateGroupListFrequencies():
+def populateGroupList():
 	'''
-	populates the global variable 'groupList' using 'pokemonList' based on the dominant frequency in the spectra
+	populates the global variable 'groupList' using 'pokemonList'
 	'''
 	i = 0
 	pokecounter = 0
@@ -80,38 +80,14 @@ def populateGroupListFrequencies():
 					pokecounter += 1
 			i += 1
 
-def populateGroupListRatios():
-	'''
-	populates the global variable 'groupList' using 'pokemonList' based on the ratios between dominant frequencies in the spectra
-	'''
-	i = 0
-	pokecounter = 0
-	for p in pokemonList:
-		if p[2] == "unused":
-			groupList.append([p])
-			pokemonList[pokemonList.index(p)][2] = "used"
-			pokecounter += 1
-			for q in pokemonList:
-				if q[2] == "unused" and pokeCompare2(p,q,5):
-					groupList[i].append(q)
-					pokemonList[pokemonList.index(q)][2] = "used"
-					pokecounter += 1
-			i += 1
-
 
 def showGroups():
 	for i in range(len(groupList)):
-		print "Group ", i+1
+		print "group for i = ", i, " -------------------"
 		for j in range(len(groupList[i])):
-			print "#", groupList[i][j][0], ": ", int(groupList[i][j][1][0][1]), "hz"
-
-def showGroups2():
-	for i in range(len(groupList)):
-		print "Group ", i+1
-		for j in range(len(groupList[i])):
-			print "#", groupList[i][j][0], ": ", groupList[i][j][1][0][1] / groupList[i][j][1][1][1]
+			print groupList[i][j][0], ": ", groupList[i][j][1][0][1]
 
 
 populatePokemonList()
-populateGroupListRatios()
-showGroups2()
+populateGroupList()
+showGroups()
