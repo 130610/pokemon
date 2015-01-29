@@ -1,15 +1,29 @@
-from numpy import sin, linspace, pi
+from numpy import sin, linspace, pi, argmax, delete
 from scipy import fft, arange
 from scipy.io import wavfile
 
-y = wavfile.read("WAV-651/143.wav")
+y = wavfile.read("test.wav")
 sr = y[0]
 y = y[1]
-ts = 1.0/sr
-l = ts*len(y)
-
-t = arange(0, l, ts)
-
 n = len(y) # length of the signal
+T = float(n)/sr
+k = arange(n)
+
+#t = arange(0, l, ts)
+
+freq = k/T # two sides frequency range
+freq = freq[range(n/2)] # one side frequency range
+
 spectrum = fft(y)/n # fft computing and normalization
 spectrum =  spectrum[range(n/2)]
+spectrum = abs(spectrum)
+
+print freq[argmax(spectrum)]
+
+#topvals = [] 
+#
+#for i in range(0,20):
+#	topvals.append(argmax(spectrum) + i)
+#	spectrum = delete(spectrum, argmax(spectrum))
+#
+#print topvals
