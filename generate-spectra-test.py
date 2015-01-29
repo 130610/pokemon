@@ -2,7 +2,7 @@ from numpy import sin, linspace, pi, argmax, delete
 from scipy import fft, arange
 from scipy.io import wavfile
 
-y = wavfile.read("test.wav")
+y = wavfile.read("WAV-651/001.wav")
 sr = y[0]
 y = y[1]
 n = len(y) # length of the signal
@@ -17,6 +17,7 @@ freq = freq[range(n/2)] # one side frequency range
 spectrum = fft(y)/n # fft computing and normalization
 spectrum =  spectrum[range(n/2)]
 spectrum = abs(spectrum)
+spectrum = delete(spectrum,0)
 
 print freq[argmax(spectrum)]
 
